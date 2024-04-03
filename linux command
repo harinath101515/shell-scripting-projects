@@ -1,0 +1,121 @@
+ 1  touch first-shell-script.sh
+    2  ls
+    3  ls -ltr
+    4  clear
+    5  man ls
+    6  clear
+    7  vi first-shell-script.sh
+    8  touch shell-script-1
+    9  ls
+   10  vim shell-script-1
+   11  clear
+   12  vim second-script.sh
+   13  ls
+   14  vim first-shell-script.sh
+   15  cat first-shell-script.sh
+   16  vi first-script.sh
+   17  cat first-script.sh
+   18  clear
+   19  sh first-script.sh
+   20  ./ first-script.sh
+   21  ./first-script.sh
+   22  sh first-script.sh
+   23  chmod 777 first-script.sh
+   24  ./first-script.sh
+   25  chmod 444 first-script.sh
+   26  vim first-script.sh
+   27  ./first-script.sh
+   28  chmod 777 first-script.sh
+   29  history
+   30  clear
+   31  ls -ltr
+   32  pwd
+   33  vim sample1.sh
+   34  sh sample1.sh
+   35  vim sample1.sh
+   36  chmod 777 sample1.sh
+   37  ./sample1.sh
+   38  ls
+   39  cd hari
+   40  ls
+   41  cd ..
+   42  history
+   43  sh sample1.sh
+   44  cat sample1.sh
+   45  clear
+   46  top
+   47  clear
+   48  history
+   49  clear
+   50  df
+   51  nprog
+   52  nproc
+   53  free
+   54  clear
+   55  vim node.sh
+   56  sh node.sh
+   57  chmod 777 node.sh
+   58  ./node.sh
+   59  clear
+   60  vim node.sh
+   61  vim node.sh
+   62  chmod 777 node.sh
+   63  ./node.sh
+   64  vim node.sh
+   65  ./node.sh
+   66  vim node.sh
+   67  ./node.sh
+   68  clear
+   69  vim node.sh
+   70  ./node.sh
+   71  ps
+   72  ps -ef
+   73  clear
+   74  ps -ef | grep "amazon"
+   75  clear
+   76  vim test.sh
+   77  chmod 777 test.sh
+   78  ./test.sh
+   79  ./test.sh | grep "3"
+   80  clear
+   81  ls
+   82  cd hari/
+   83  ls
+   84  cd ..
+   85  clear
+   86  date
+   87  date | echo "date is"
+   88  vim node.sh
+   89  ./node.sh
+   90  vim node.sh
+   91  ./node.sh
+   92  ps -ef | grep amazon | awk -F " " '{print $2}'
+   93  ps -ef | grep amazon | awk -F " " '{print $1}'
+   94  vim test.sh
+   95  grep name test
+   96  grep name test.sh
+   97  grep name test.sh | awk -F " " '{print $4}'
+   98  clear
+   99  vim node.sh
+  100  clear
+  101  vim node.sh
+  102  find pam.d
+  103  ls
+  104  find /
+  105  find sys
+  106  find aws
+  107  find /aws
+  108  clear
+  109  sudo su -
+  110  find / -name pam
+  111  sudo find / -name pam
+  112  clear
+  113  ifw.sh
+  114  vim ifw.sh
+  115  sh ifw.sh
+  116  chmod 777 ifw.sh
+  117  ./  ifw.sh
+  118  ./ifw.sh
+  119  vim ifw.sh
+  120  clear
+  121  history
