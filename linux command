@@ -120,3 +120,4 @@
   120  clear
   121  history
 122 trap
+ 123 kill
